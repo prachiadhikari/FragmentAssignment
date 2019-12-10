@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="30dp"
+    android:orientation="vertical"
+    tools:context=".fragments.Areafragment">
+
+    <EditText
+        android:id="@+id/etradius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter radius"
+        android:layout_margin="10dp"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btncalculate"
+        android:textSize="20dp"
+        android:text="Area"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvarea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+
+</LinearLayout>
